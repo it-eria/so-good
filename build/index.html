@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>So GooD</title>
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+    <script>
+        function myFunction() {
+            var windowWidth = window.innerWidth;
+            if (windowWidth <= 768){
+                $('#portfolio-container').removeClass('portfolio__list--rhomb');
+                $('.portfolio__nav').hide();
+            }
+            else {
+                $('#portfolio-container').addClass('portfolio__list--rhomb');
+                $('.portfolio__nav').show();
+            }
+        }
+    </script>
+</head>
+<body onload="myFunction()">
+<div id="loader-wrapper">
+    <img class="loader-logo" src="/assets/images/logotype.png" />
+    <div class="loading"></div>
+</div>
+<div class="main-wrapper">
+    <div class="header-menu ">
+        <nav class="navbar nav-down nav-second navbar-fixed-top page-header" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+            <div class="container ">
+                <div class="navbar-header navbar-fixed-top navbar-fixed">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#first">
+
+                        <a href="#" id="menu-burger"><span></span></a>
+                    </button>
+                    <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><img src="/assets/images/logotype.png" alt="Brand" width="180" /></a>
+                </div>
+                <div class="collapse navbar-collapse page-header__nav" id="first">
+                    <div class="nav">
+                    <ul class="nav navbar-nav nav__list">
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#about-url"><span>01.</span> Про нас</a></li>
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#portfolio-url"><span>02.</span> Events</a></li>
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#features-url"><span>03.</span> Чому ми</a></li>
+                        <li class="hidden-xs nav__item"><a class="nav__link" href="#main-slider"><img src="/assets/images/logotype.png" alt="Brand" width="180" /></a></li>
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#team-url"><span>04.</span> Команда</a></li>
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#clients-url"><span>05.</span> Партнери</a></li>
+                        <li class="nav__item"><a class="hover-1 nav__link" href="#contact-url"><span>06.</span> Контакти</a></li>
+
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="main-slider">
+        <div class="main-slider__wrap slider__wrap">
+            <ul class="main-slider__list slider__slides">
+                <li class="main-slider__item main-slider__item--1" style="background-image: url('/assets/images/slide-1.jpg')">
+                    <div class="main-slider__slide-wrap">
+                        <div class="main-slider__slide-inner">
+                            <h3 class="main-slider__title title-main">rubiko</h3>
+                            <div class="main-slider__sub">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not onlyfive centuries, but also the leap into electronic
+                                typesetting, remaining!
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-slider__item main-slider__item--2" style="background-image: url('/assets/images/slide-2.jpg')">
+                    <div class="main-slider__slide-wrap">
+                        <div class="main-slider__slide-inner">
+                            <h3 class="main-slider__title title-main">adaptive design</h3>
+                            <div class="main-slider__sub">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not onlyfive centuries, but also the leap into electronic
+                                typesetting, remaining!
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-slider__item main-slider__item--3" style="background-image: url('/assets/images/slide-3.jpg')">
+                    <div class="main-slider__slide-wrap">
+                        <div class="main-slider__slide-inner">
+                            <h3 class="main-slider__title title-main">lorem ipsum is simply</h3>
+                            <div class="main-slider__sub">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not onlyfive centuries, but also the leap into electronic
+                                typesetting, remaining!
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="main-slider__nav-item main-slider__nav-item--prev"><a
+                    class="main-slider__nav-link main-slider__nav-link--prev slider__prev" href="#"></a></div>
+            <div class="main-slider__nav-item main-slider__nav-item--next"><a
+                    class="main-slider__nav-link main-slider__nav-link--next slider__next" href="#"></a></div>
+            <div class="main-slider__nav-item main-slider__nav-item--jump"><a
+                    class="main-slider__nav-link main-slider__nav-link--jump" href="#portfolio-url"></a></div>
+        </div>
+    </section>
+    <section class="portfolio-url"></section>
+    <section class="portfolio">
+        <div class="container">
+            <h3 class="portfolio__title title-main title-main--black">Events</h3>
+            <div class="portfolio__nav">
+
+                <div class="portfolio__nav-item portfolio__grid"><a class="portfolio__nav-link portfolio__rect"
+                                                                    href="#"></a><a
+                        class="portfolio__nav-link portfolio__rhomb portfolio__rhomb--active" href="#"></a></div>
+            </div>
+            <div class="portfolio__list-wrap">
+                <ul id="portfolio-container" class="portfolio__list portfolio__list--rhomb">
+                    <li class="portfolio__item" data-image="vinyl-record.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/vinyl-record-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="wooden-logo.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/wooden-logo-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="book-mockup.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/book-mockup-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="macbook-air.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/macbook-air-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="silver-stamping.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/silver-stamping-thumb.jpg">
+                        </div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="t-shirt.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/t-shirt-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="picjumbo.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/picjumbo-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="wood.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/wood-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="embossed-leather.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/embossed-leather-thumb.jpg">
+                        </div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="billboard-600.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/billboard-600-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="macbook.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/macbook-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="vintage-car-emblem.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/vintage-car-emblem-thumb.jpg">
+                        </div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                    <li class="portfolio__item" data-image="madebyvadim.jpg">
+                        <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
+                                                                     src="/assets/images/madebyvadim-thumb.jpg"></div>
+                        <div class="portfolio__item-overlay"></div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about-url"></section>
+    <section class="about" style="background-image: url('/assets/images/about-bg.jpg')">
+        <div class="container">
+            <h3 class="about__title title-main">Про нас</h3>
+            <div class="about__sub text-main">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting, remaining. Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                .
+            </div>
+            <a class="about__logo logo logo--sub" href="#"><span class="about__logo-title logo__title">rubiko</span></a>
+            <ul class="about__socials-list">
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--fb"
+                                                   href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--tw"
+                                                   href="https://twitter.com/" target="_blank">twitter</a></li>
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--db"
+                                                   href="https://dribbble.com/" target="_blank">dribbble</a></li>
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--tm"
+                                                   href="https://www.tumblr.com/" target="_blank">tumblr</a></li>
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--ln"
+                                                   href="https://www.linkedin.com/" target="_blank">linkedin</a></li>
+                <li class="about__socials-item"><a class="about__socials-link about__socials-link--pt"
+                                                   href="https://pinterest.com/" target="_blank">pinterest</a></li>
+            </ul>
+            <a class="jump-section" href="#features-url"><span class="jump-section__inner"></span></a>
+        </div>
+    </section>
+    <section class="features-url"></section>
+    <section class="features">
+        <div class="container">
+            <h3 class="features__title title-main title-main--black">Чому ми?</h3>
+            <div class="features__sub text-main text-main--black">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic typesetting, remaining
+            </div>
+            <ul class="features__list">
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-1"></div>
+                    </div>
+                    <h4 class="features__item-title">unique design</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops.
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-2"></div>
+                    </div>
+                    <h4 class="features__item-title">simple beckend</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-3"></div>
+                    </div>
+                    <h4 class="features__item-title">seo tools</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-4"></div>
+                    </div>
+                    <h4 class="features__item-title">responsive</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-5"></div>
+                    </div>
+                    <h4 class="features__item-title">retina ready</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-6"></div>
+                    </div>
+                    <h4 class="features__item-title">top support</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                <li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-7"></div>
+                    </div>
+                    <h4 class="features__item-title">documentation</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="clients-url"></section>
+    <section class="clients" style="background-image: url('/assets/images/clients-bg.jpg')">
+        <div class="container">
+            <div class="h3 clients__title title-main">Партнери</div>
+            <div class="clients__sub text-main">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only.
+            </div>
+
+            <div class="clients__list">
+                <div class="clients__item"><img class="clients__image" src="/assets/images/grahpicriver.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/themeforest.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/codecanyon.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/activeden.png"></div>
+                <div class="clients__item"><img class="clients__image" src="/assets/images/grahpicriver.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/themeforest.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/codecanyon.png"></div>
+                <div class="clients__item"><img class="clients__logo" src="/assets/images/activeden.png"></div>
+            </div>
+
+            <a class="jump-section" href="#team-url"><span class="jump-section__inner"></span></a>
+        </div>
+    </section>
+    <section class="team-url"></section>
+    <section class="team">
+        <div class="container">
+            <h3 class="team__title title-main title-main--black">Команда</h3>
+            <div class="team__sub text-main text-main--black">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only.
+            </div>
+            <div class="team__slider">
+                <ul class="team__list">
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--1">
+                                <img src="/assets/images/team-1.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">General Manager</div>
+                            <div class="team__name">Tom Weerd</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--2">
+                                <img src="/assets/images/team-2.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Lead Developer</div>
+                            <div class="team__name">John Hammond</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--3">
+                                <img src="/assets/images/team-3.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Art Director</div>
+                            <div class="team__name">Adam Clark</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--4">
+                                <img src="/assets/images/team-4.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Graphic Designer</div>
+                            <div class="team__name">Isabella Moro</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--1">
+                                <img src="/assets/images/team-1.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">General Manager</div>
+                            <div class="team__name">Tom Weerd</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--2">
+                                <img src="/assets/images/team-2.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Lead Developer</div>
+                            <div class="team__name">John Hammond</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--3">
+                                <img src="/assets/images/team-3.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Art Director</div>
+                            <div class="team__name">Adam Clark</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <div class="team__item-inner">
+                            <div class="team__image team__image--4">
+                                <img src="/assets/images/team-4.jpg" alt="img" />
+                                <div class="team__image-overlay"></div>
+                                <a class="team__image-link team__image-link--tm" href="https://www.tumblr.com/"
+                                   target="_blank"></a><a class="team__image-link team__image-link--db"
+                                                          href="https://dribbble.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--ln" href="https://www.linkedin.com/"
+                                    target="_blank"></a><a class="team__image-link team__image-link--fb"
+                                                           href="https://www.facebook.com/" target="_blank"></a><a
+                                    class="team__image-link team__image-link--tw" href="https://twitter.com/"
+                                    target="_blank"></a>
+                            </div>
+                            <div class="team__role">Graphic Designer</div>
+                            <div class="team__name">Isabella Moro</div>
+                            <div class="team__desc text-main text-main--black">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                text ever since.
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a class="team__slider-nav team__slider-nav--prev" href="#"></a><a
+                    class="team__slider-nav team__slider-nav--next" href="#"></a>
+            </div>
+        </div>
+    </section>
+    <section class="statistics" style="background-image: url('/assets/images/statistics-bg.jpg')">
+        <div class="container">
+            <h3 class="statistics__title title-main">some cool statistics</h3>
+            <div class="statistics__sub text-main">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only.
+            </div>
+            <ul class="statistics__list">
+                <li class="statistics__item">
+                    <div class="statistics__icon">&#xe001</div>
+                    <div class="statistics__num">568</div>
+                    <div class="statistics__text">happy clients</div>
+                </li>
+                <li class="statistics__item">
+                    <div class="statistics__icon">&#xe009</div>
+                    <div class="statistics__num">3578</div>
+                    <div class="statistics__text">followers on twitter</div>
+                </li>
+                <li class="statistics__item">
+                    <div class="statistics__icon">&#xe00b</div>
+                    <div class="statistics__num">2387</div>
+                    <div class="statistics__text">friends on facebook</div>
+                </li>
+                <li class="statistics__item">
+                    <div class="statistics__icon">&#xe006</div>
+                    <div class="statistics__num">128</div>
+                    <div class="statistics__text">awards</div>
+                </li>
+            </ul>
+            <a class="jump-section" href="#contact-url"><span class="jump-section__inner"></span></a>
+        </div>
+    </section>
+    <section class="contact-url"></section>
+    <section class="contact">
+        <div class="container">
+            <div class="h3 contact__title title-main title-main--black">Контакти</div>
+            <div class="contact__sub text-main text-main--black">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only.
+            </div>
+        </div>
+        <div class="contact__form-wrap">
+            <form class="contact__form" method="POST">
+                <div class="contact__form-groups">
+                    <div class="contact__form-line">
+                        <input class="contact__input contact__input--name" type="text" placeholder="Name">
+                    </div>
+                    <div class="contact__form-line">
+                        <input class="contact__input contact__input--email" email="text" placeholder="Email">
+                    </div>
+                    <div class="contact__form-line">
+                        <input class="contact__input contact__input--subject" type="text" placeholder="Subject">
+                    </div>
+                    <div class="contact__form-line">
+                        <textarea class="contact__input contact__input--message" type="text"
+                                  placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+                <div class="contact__address">
+                    <div class="contact__address-inner">
+                        <div class="contact__address-title">Rubiko Digital Agency</div>
+                        <div class="contact__address-text">
+                            <div class="contact__address-text-inner">111 Fifth Avenue, 34th Floor</div>
+                            <div class="contact__address-text-inner">New York, United States</div>
+                        </div>
+                        <a class="contact__address-link" href="mailto:hello@rubiko.com">hello@rubiko.com</a><a
+                            class="contact__address-link" href="tel:+098765432100">0987 6543 2100</a>
+                    </div>
+                </div>
+                <div class="contact__form-control contact__form-control--send">
+                    <input class="contact__form-btn contact__form-btn--submit" type="submit" value="SEND">
+                </div>
+                <div class="contact__form-control contact__form-control--reset">
+                    <input class="contact__form-btn contact__form-btn--reset" type="reset" value="RESET">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <h3 class="testimonials__title">testimonials</h3>
+            <div class="testimonials__nav">
+                <ul class="testimonials__nav-list"></ul>
+            </div>
+            <ul class="testimonials__list">
+                <li class="testimonials__item testimonials__item--active">
+                    <div class="testimonials__content">"If there ever was a team to trust with your PPC management,
+                        these are the guys. My advice? Grab your spot before they change their minds."
+                    </div>
+                    <address class="testimonials__author">Petar Stojakovic, Subotica</address>
+                </li>
+                <li class="testimonials__item">
+                    <div class="testimonials__content">"We love the approachable format, and the fact that they chose to
+                        feature customers that users can really relate to."
+                    </div>
+                    <address class="testimonials__author">John Doe, TTTC</address>
+                </li>
+                <li class="testimonials__item">
+                    <div class="testimonials__content">"Many companies struggle to grab people's attention using their
+                        web pages, but Vadim Postanovkin does a great job of catching your eye as soon as you arrive on
+                        the page."
+                    </div>
+                    <address class="testimonials__author">Ann Jackson, Doors</address>
+                </li>
+                <li class="testimonials__item">
+                    <div class="testimonials__content">"It's awesome, really!"</div>
+                    <address class="testimonials__author">Bill Gates, Big Company</address>
+                </li>
+                <li class="testimonials__item">
+                    <div class="testimonials__content">"Company does a lot right on their pages, but the bread and
+                        butter is their geometric design stuff. "
+                    </div>
+                    <address class="testimonials__author">Robert Del Naja, Massive Attack</address>
+                </li>
+                <li class="testimonials__item">
+                    <div class="testimonials__content">"I just had to let you know how pleased we were with our new
+                        website! it certainly helped to make our life more special. Thanks again. A big thank you again
+                        for this beautiful web site!"
+                    </div>
+                    <address class="testimonials__author">John Lennon, Music Band</address>
+                </li>
+            </ul>
+            <a class="jump-section" href="#skills"><span class="jump-section__inner"></span></a>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h3 class="skills__title title-main title-main--black">our skills</h3>
+            <div class="skills__sub text-main text-main--black">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only.
+            </div>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <div class="skills__item-triangle"></div>
+                    <div class="skills__meter" data-percent="95">
+                        <div class="skills__meter-inner"><span class="skills__meter-name">html/css</span><span
+                                class="skills__meter-percent">95%</span></div>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <div class="skills__item-triangle"></div>
+                    <div class="skills__meter" data-percent="85">
+                        <div class="skills__meter-inner"><span
+                                class="skills__meter-name">responsive web design</span><span
+                                class="skills__meter-percent">85%</span></div>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <div class="skills__item-triangle"></div>
+                    <div class="skills__meter" data-percent="65">
+                        <div class="skills__meter-inner"><span class="skills__meter-name">ios development</span><span
+                                class="skills__meter-percent">65%</span></div>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <div class="skills__item-triangle"></div>
+                    <div class="skills__meter" data-percent="90">
+                        <div class="skills__meter-inner"><span
+                                class="skills__meter-name">javascript development</span><span
+                                class="skills__meter-percent">90%</span></div>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <div class="skills__item-triangle"></div>
+                    <div class="skills__meter" data-percent="75">
+                        <div class="skills__meter-inner"><span class="skills__meter-name">consulting</span><span
+                                class="skills__meter-percent">75%</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="gmap-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3593053025024!2d24.032362415860483!3d49.83570593934863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add68faf3a9a7%3A0x3228991fc1e772!2z0YPQuy4g0JjQstCw0L3QsCDQpNGA0LDQvdC60L4sIDE0LCDQm9GM0LLQvtCyLCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1sru!2sua!4v1521558258462"
+            width="100%" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="page-footer__logo"><a class="logo logo--sub" href="#"><span class="logo__title">rubiko</span></a>
+        </div>
+        <div class="page-footer__copyright">Copyright © 2016. Rubiko Studio. All Rights Reserved.</div>
+        <ul class="about__socials-list">
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--fb"
+                                                     href="https://www.facebook.com/" target="_blank">facebook</a></li>
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--tw"
+                                                     href="https://twitter.com/" target="_blank">twitter</a></li>
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--db"
+                                                     href="https://dribbble.com/" target="_blank">dribbble</a></li>
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--tm"
+                                                     href="https://www.tumblr.com/" target="_blank">tumblr</a></li>
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--ln"
+                                                     href="https://www.linkedin.com/" target="_blank">linkedin</a></li>
+            <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--pt"
+                                                     href="https://pinterest.com/" target="_blank">pinterest</a></li>
+        </ul>
+        <a class="jump-section rotate-180" href="#main-wrapper"><span class="jump-section__inner"></span></a>
+    </div>
+</footer>
+<script src="/assets/js/script.min.js"></script>
+</body>
+</html>
