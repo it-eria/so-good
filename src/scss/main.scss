@@ -1684,14 +1684,14 @@ table {
 	height: 37px;
 	border: 1px solid #212121;
 	display: inline-block;
-	background: url(assets/images/sprite.png) -5px -68px;
+	background: url(../images/sprite.png) -5px -68px;
 }
 .portfolio__rhomb {
 	width: 37px;
 	height: 37px;
 	border: 1px solid #212121;
 	display: inline-block;
-	background: url(assets/images/sprite.png) -4px -105px;
+	background: url(../images/sprite.png) -4px -105px;
 }
 .portfolio {
 	padding: 100px 0;
@@ -1716,13 +1716,13 @@ table {
 	vertical-align: top;
 }
 .portfolio__rect--active {
-	background: url(assets/images/sprite.png) -52px -68px #212121;
+	background: url(../images/sprite.png) -52px -68px #212121;
 	&:hover {
 		background-color: $background_color_15;
 	}
 }
 .portfolio__rhomb--active {
-	background: url(assets/images/sprite.png) -51px -105px #212121;
+	background: url(../images/sprite.png) -51px -105px #212121;
 	&:hover {
 		background-color: $background_color_15;
 	}
