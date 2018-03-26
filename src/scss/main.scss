@@ -55,43 +55,43 @@ $border_bottom_color_1: transparent;
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 @font-face {
 	font-family: open_sanslight;
-	src: url(assets/fonts/open_sans_light-webfont.eot);
-	src: url(assets/fonts/open_sans_light-webfont.eot?#iefix) format("embedded-opentype"), url(assets/fonts/open_sans_light-webfont.woff2) format("woff2"), url(assets/fonts/open_sans_light-webfont.woff) format("woff"), url(assets/fonts/open_sans_light-webfont.ttf) format("truetype"), url(assets/fonts/open_sans_light-webfont.svg#open_sanslight) format("svg");
+	src: url(../fonts/open_sans_light-webfont.eot);
+	src: url(../fonts/open_sans_light-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/open_sans_light-webfont.woff2) format("woff2"), url(../fonts/open_sans_light-webfont.woff) format("woff"), url(../fonts/open_sans_light-webfont.ttf) format("truetype"), url(../fonts/open_sans_light-webfont.svg#open_sanslight) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: open_sansextrabold;
-	src: url(assets/fonts/opensans-extrabold-webfont.eot);
-	src: url(assets/fonts/opensans-extrabold-webfont.eot?#iefix) format("embedded-opentype"), url(assets/fonts/opensans-extrabold-webfont.woff2) format("woff2"), url(assets/fonts/opensans-extrabold-webfont.woff) format("woff"), url(assets/fonts/opensans-extrabold-webfont.ttf) format("truetype"), url(assets/fonts/opensans-extrabold-webfont.svg#open_sansextrabold) format("svg");
+	src: url(../fonts/opensans-extrabold-webfont.eot);
+	src: url(../fonts/opensans-extrabold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/opensans-extrabold-webfont.woff2) format("woff2"), url(../fonts/opensans-extrabold-webfont.woff) format("woff"), url(../fonts/opensans-extrabold-webfont.ttf) format("truetype"), url(../fonts/opensans-extrabold-webfont.svg#open_sansextrabold) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'exo_2.0black';
-	src: url(assets/fonts/exo2.0-black-webfont.eot);
-	src: url(assets/fonts/exo2.0-black-webfont.eot?#iefix) format("embedded-opentype"), url(assets/fonts/exo2.0-black-webfont.woff2) format("woff2"), url(assets/fonts/exo2.0-black-webfont.woff) format("woff"), url(assets/fonts/exo2.0-black-webfont.ttf) format("truetype"), url(assets/fonts/exo2.0-black-webfont.svg#exo_2.0black) format("svg");
+	src: url(../fonts/exo2.0-black-webfont.eot);
+	src: url(../fonts/exo2.0-black-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/exo2.0-black-webfont.woff2) format("woff2"), url(../fonts/exo2.0-black-webfont.woff) format("woff"), url(../fonts/exo2.0-black-webfont.ttf) format("truetype"), url(../fonts/exo2.0-black-webfont.svg#exo_2.0black) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: open_sansitalic;
-	src: url(assets/fonts/opensans-italic-webfont.eot);
-	src: url(assets/fonts/opensans-italic-webfont.eot?#iefix) format("embedded-opentype"), url(assets/fonts/opensans-italic-webfont.woff2) format("woff2"), url(assets/fonts/opensans-italic-webfont.woff) format("woff"), url(assets/fonts/opensans-italic-webfont.ttf) format("truetype"), url(assets/fonts/opensans-italic-webfont.svg#open_sansitalic) format("svg");
+	src: url(../fonts/opensans-italic-webfont.eot);
+	src: url(../fonts/opensans-italic-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/opensans-italic-webfont.woff2) format("woff2"), url(../fonts/opensans-italic-webfont.woff) format("woff"), url(../fonts/opensans-italic-webfont.ttf) format("truetype"), url(../fonts/opensans-italic-webfont.svg#open_sansitalic) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: FontAwesome;
-	src: url(assets/fonts/fontawesome-webfont.eot?v=4.6.3);
-	src: url(assets/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3) format("embedded-opentype"), url(assets/fonts/fontawesome-webfont.woff2?v=4.6.3) format("woff2"), url(assets/fonts/fontawesome-webfont.woff?v=4.6.3) format("woff"), url(assets/fonts/fontawesome-webfont.ttf?v=4.6.3) format("truetype"), url(assets/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format("svg");
+	src: url(../fonts/fontawesome-webfont.eot?v=4.6.3);
+	src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.6.3) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.6.3) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.6.3) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: Simple-Line-Icons;
-	src: url(assets/fonts/Simple-Line-Icons.eot);
-	src: url(assets/fonts/Simple-Line-Icons.eot?#iefix) format("embedded-opentype"), url(assets/fonts/Simple-Line-Icons.woff) format("woff"), url(assets/fonts/Simple-Line-Icons.ttf) format("truetype"), url(assets/fonts/Simple-Line-Icons.svg#Simple-Line-Icons) format("svg");
+	src: url(../fonts/Simple-Line-Icons.eot);
+	src: url(../fonts/Simple-Line-Icons.eot?#iefix) format("embedded-opentype"), url(../fonts/Simple-Line-Icons.woff) format("woff"), url(../fonts/Simple-Line-Icons.ttf) format("truetype"), url(../fonts/Simple-Line-Icons.svg#Simple-Line-Icons) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
