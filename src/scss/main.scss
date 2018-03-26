@@ -598,7 +598,7 @@ select {
 		left: 50%;
 		margin-left: -15px;
 		content: "";
-		background: url(assets/images/sprite.png) -59px -32px;
+		background: url(../images/sprite.png) -59px -32px;
 		text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
 	}
 }
@@ -630,7 +630,7 @@ select {
 		bottom: 0;
 		left: 50%;
 		margin-left: -16px;
-		background: url(assets/images/sprite.png) -59px -32px;
+		background: url(../images/sprite.png) -59px -32px;
 	}
 }
 .team__title {
@@ -930,7 +930,7 @@ table {
 		left: 50%;
 		margin-left: -23px;
 		content: "";
-		background: url(assets/images/sprite.png) 0 -28px;
+		background: url(../images/sprite.png) 0 -28px;
 	}
 }
 .contact__address-link {
@@ -966,7 +966,7 @@ table {
 		left: 0;
 		top: 50%;
 		margin-top: -13px;
-		background: url(assets/images/sprite.png);
+		background: url(../images/sprite.png);
 	}
 	&:hover {
 		&:before {
@@ -2096,7 +2096,7 @@ table {
 .testimonials {
 	position: relative;
 	padding: 100px 0 55px;
-	background: url(assets/images/testimonials-bg.jpg) center center fixed;
+	//background: url(assets/images/testimonials-bg.jpg) center center fixed;
 	background-size: cover;
 }
 .testimonials__nav {
@@ -2183,13 +2183,13 @@ table {
 		left: 50%;
 		margin-left: -23px;
 		content: "";
-		background: url(assets/images/sprite.png) 0 -28px;
+		background: url(../images/sprite.png) 0 -28px;
 	}
 }
 .title-main--black {
 	color: $color_5;
 	&:after {
-		background: url(assets/images/sprite.png) 0 -40px;
+		background: url(../images/sprite.png) 0 -40px;
 	}
 }
 @media (min-width: 768px) {
