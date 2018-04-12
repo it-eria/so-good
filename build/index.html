@@ -10,6 +10,7 @@
     <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:200,300,400,500,600,700,800,900&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <script>
         function myFunction() {
@@ -26,6 +27,37 @@
     </script>
 </head>
 <body onload="myFunction()">
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  
+  <div class="modal-dialog modal-lg">
+    
+    <!-- Modal Content: begins -->
+    <div class="modal-content">
+      
+      <!-- Modal Header -->
+      <div class="modal-header no-borders">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="gridSystemModalLabel">This is a title</h4>
+      </div>
+    
+      <!-- Modal Body -->  
+      <div class="modal-body">
+        <p class="body-message centered">This is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some contentThis is some content</p>
+      </div>
+    
+      <!-- Modal Footer -->
+      <div class="modal-footer no-borders">
+        <button type="button" class="btn btn-primary modal-btn" data-dismiss="modal">Ok, Thanks</button>
+      </div>
+    
+    </div>
+    <!-- Modal Content: ends -->
+    
+  </div>
+  
+</div>  
+   
+
 <div id="loader-wrapper">
     <img class="loader-logo" src="assets/images/logotype.png" />
     <div class="loading"></div>
@@ -122,10 +154,10 @@
             </div>
             <div class="portfolio__list-wrap">
                 <ul id="portfolio-container" class="portfolio__list portfolio__list--rhomb">
-                    <li class="portfolio__item" data-image="vinyl-record.jpg">
+                    <li class="portfolio__item" data-image="vinyl-record.jpg" >
                         <div class="portfolio__item-image-wrap"><img class="portfolio__item-image"
                                                                      src="assets/images/vinyl-record-thumb.jpg"></div>
-                        <div class="portfolio__item-overlay"></div>
+                        <div class="portfolio__item-overlay" data-toggle="modal" data-target=".bs-example-modal-lg"></div>
 
                     </li>
                     <li class="portfolio__item" data-image="wooden-logo.jpg">
@@ -234,6 +266,8 @@
                                                    href="https://www.linkedin.com/" target="_blank">linkedin</a></li>
                 <li class="about__socials-item"><a class="about__socials-link about__socials-link--pt"
                                                    href="https://pinterest.com/" target="_blank">pinterest</a></li>
+												   <li class="about__socials-item"><a class="about__socials-link about__socials-link--insta"
+                                                   href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a></li>
             </ul>
             <a class="jump-section" href="#features-url"><span class="jump-section__inner"></span></a>
         </div>
@@ -284,33 +318,47 @@
                         base, from phones to tablets to desktops
                     </div>
                 </li>
-                <li class="features__item">
+				
+				<li class="features__item">
                     <div class="features__image-wrap">
-                        <div class="features__image features__image--icon-5"></div>
+                        <div class="features__image features__image--icon-4"></div>
                     </div>
-                    <h4 class="features__item-title">retina ready</h4>
+                    <h4 class="features__item-title">responsive</h4>
                     <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
                         base, from phones to tablets to desktops
                     </div>
                 </li>
-                <li class="features__item">
+				
+				<li class="features__item">
                     <div class="features__image-wrap">
-                        <div class="features__image features__image--icon-6"></div>
+                        <div class="features__image features__image--icon-4"></div>
                     </div>
-                    <h4 class="features__item-title">top support</h4>
+                    <h4 class="features__item-title">responsive</h4>
                     <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
                         base, from phones to tablets to desktops
                     </div>
                 </li>
-                <li class="features__item">
+				
+				<li class="features__item">
                     <div class="features__image-wrap">
-                        <div class="features__image features__image--icon-7"></div>
+                        <div class="features__image features__image--icon-4"></div>
                     </div>
-                    <h4 class="features__item-title">documentation</h4>
+                    <h4 class="features__item-title">responsive</h4>
                     <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
                         base, from phones to tablets to desktops
                     </div>
                 </li>
+				
+				<li class="features__item">
+                    <div class="features__image-wrap">
+                        <div class="features__image features__image--icon-4"></div>
+                    </div>
+                    <h4 class="features__item-title">responsive</h4>
+                    <div class="features__item-sub">Rubiko easily and efficiently scales your project with one code
+                        base, from phones to tablets to desktops
+                    </div>
+                </li>
+                
             </ul>
         </div>
     </section>
@@ -591,10 +639,10 @@
                 </div>
                 <div class="contact__address">
                     <div class="contact__address-inner">
-                        <div class="contact__address-title">Rubiko Digital Agency</div>
+                        <div class="contact__address-title">вул. Зелена, 44</div>
                         <div class="contact__address-text">
-                            <div class="contact__address-text-inner">111 Fifth Avenue, 34th Floor</div>
-                            <div class="contact__address-text-inner">New York, United States</div>
+                            <div class="contact__address-text-inner">Офіс 25</div>
+                            <div class="contact__address-text-inner">Львів, Україна</div>
                         </div>
                         <a class="contact__address-link" href="mailto:hello@rubiko.com">hello@rubiko.com</a><a
                             class="contact__address-link" href="tel:+098765432100">0987 6543 2100</a>
@@ -706,8 +754,7 @@
         </div>
     </section>
     <div class="gmap-container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.3593053025024!2d24.032362415860483!3d49.83570593934863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add68faf3a9a7%3A0x3228991fc1e772!2z0YPQuy4g0JjQstCw0L3QsCDQpNGA0LDQvdC60L4sIDE0LCDQm9GM0LLQvtCyLCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1sru!2sua!4v1521558258462"
-            width="100%" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.620953288167!2d24.03969021609173!3d49.830788979394534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5cbf69234d%3A0x65d1356caa957670!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNDQsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1523537311657" width="100%" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -730,6 +777,8 @@
                                                      href="https://www.linkedin.com/" target="_blank">linkedin</a></li>
             <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--pt"
                                                      href="https://pinterest.com/" target="_blank">pinterest</a></li>
+													 <li class="page-footer__socials-item"><a class="page-footer__socials-link page-footer__socials-link--insta"
+                                                     href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a></li>
         </ul>
         <a class="jump-section rotate-180" href="#main-wrapper"><span class="jump-section__inner"></span></a>
     </div>

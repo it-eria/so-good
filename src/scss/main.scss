@@ -17,7 +17,7 @@ $color_11: #a1a1a1;
 $font_family_1: sans-serif;
 $font_family_2: monospace, monospace;
 $font_family_3: FontAwesome;
-$font_family_4: "exo_2.0black", arial, helvetica, sans-serif;
+
 $font_family_5: open_sanslight, arial, helvetica, sans-serif;
 $font_family_6: Simple-Line-Icons;
 $font_family_7: open_sansitalic, arial, helvetica, sans-serif;
@@ -67,13 +67,7 @@ $border_bottom_color_1: transparent;
 	font-weight: 400;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'exo_2.0black';
-	src: url(../fonts/exo2.0-black-webfont.eot);
-	src: url(../fonts/exo2.0-black-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/exo2.0-black-webfont.woff2) format("woff2"), url(../fonts/exo2.0-black-webfont.woff) format("woff"), url(../fonts/exo2.0-black-webfont.ttf) format("truetype"), url(../fonts/exo2.0-black-webfont.svg#exo_2.0black) format("svg");
-	font-weight: 400;
-	font-style: normal;
-}
+
 @font-face {
 	font-family: open_sansitalic;
 	src: url(../fonts/opensans-italic-webfont.eot);
@@ -522,7 +516,7 @@ select {
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 6px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 18px;
 	text-align: center;
 	color: $color_5;
@@ -532,7 +526,7 @@ select {
 }
 .logo__title {
 	text-transform: uppercase;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 12px;
 	color: $color_5;
 }
@@ -544,7 +538,7 @@ select {
 	text-decoration: none;
 	display: block;
 	padding: 20px 0 20px 20px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	color: $color_5;
 
@@ -562,7 +556,7 @@ select {
 .portfolio__nav-link {
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	display: block;
 	padding: 7px 22px;
 	margin: -1px 0 0 -1px;
@@ -580,7 +574,7 @@ select {
 }
 .portfolio__title-text {
 	text-transform: uppercase;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	z-index: 1;
 	position: relative;
 	display: inline-block;
@@ -616,7 +610,7 @@ select {
 }
 .team__name {
 	text-transform: uppercase;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	position: relative;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -639,7 +633,7 @@ select {
 .testimonials__title {
 	text-transform: uppercase;
 	margin: 0;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 24px;
 	text-align: center;
 	color: $color_4;
@@ -655,7 +649,7 @@ input[type=submit] {
 .features__item {
 	cursor: default;
 	display: inline-block;
-	width: 210px;
+	width: 265px;
 	margin-left: 20px;
 	text-align: center;
 	&:hover {
@@ -813,6 +807,13 @@ table {
 		margin-left: -2px;
 	}
 }
+
+.about__socials-link--insta {
+	&:after {
+		content: "\f16d";
+		margin-left: -2px;
+	}
+}
 .about__socials-link--tw {
 	&:after {
 		content: "\f099";
@@ -918,7 +919,7 @@ table {
 .contact__address-title {
 	position: relative;
 	padding-top: 20px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	color: $color_4;
 	text-align: center;
@@ -1117,7 +1118,7 @@ table {
 	height: 200%;
 	top: -50%;
 	left: -50%;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 24px;
 	color: $color_4;
 	-webkit-transform: rotate(-45deg);
@@ -1629,6 +1630,12 @@ table {
 		content: "\f099";
 	}
 }
+
+.page-footer__socials-link--insta {
+	&:after {
+		content: "\f16d";
+	}
+}
 .page-footer__socials-link--db {
 	&:after {
 		content: "\f17d";
@@ -1868,7 +1875,7 @@ table {
 }
 .skills__meter-name {
 	line-height: 42px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 15px;
 	color: $color_4;
 	position: absolute;
@@ -1877,7 +1884,7 @@ table {
 }
 .skills__meter-percent {
 	line-height: 42px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 15px;
 	color: $color_4;
 	position: absolute;
@@ -1973,7 +1980,7 @@ table {
 	color: $color_4;
 }
 .statistics__num {
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 36px;
 	color: $color_6;
 }
@@ -2033,7 +2040,7 @@ table {
 	position: absolute;
 }
 .team__role {
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 15px;
 	color: $color_6;
 }
@@ -2170,7 +2177,7 @@ table {
 	position: relative;
 	margin: 0 0 18px;
 	padding-bottom: 25px;
-	font-family: $font_family_4;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 24px;
 	text-align: center;
 	color: $color_4;
@@ -2481,7 +2488,7 @@ $background_color_1: rgba(255,255,255,0.2);
 	.navbar-nav {
 		li {
 			a {
-				font-family: "exo_2.0black",arial,helvetica,sans-serif;
+				font-family: 'Exo 2', sans-serif;
 				font-weight: 900;
 				font-size: 15px;
 				color: #000 !important;
@@ -3019,5 +3026,40 @@ $red: #E2061B;
 	transform: rotate(225deg);
 	width: 76px;
 	height: 76px;
-	bottom: -40px;
+	bottom: 40px;
+	    margin-top: 30px;
+	position: relative;
+}
+
+
+.modal-btn {
+	background-color: #cd2929;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	background-image: none;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16px;
+	&:hover {
+	background-color: #cd2929;
+	}
+}
+
+.modal-content {
+	border-radius:0;
+}
+
+.modal-title {
+font-family: 'Exo 2', sans-serif;
+font-size: 21px;
+
+}
+
+.body-message {
+font-family: 'Exo 2', sans-serif;
+font-size: 18px;
+}
+
+.modal {
+display: none;
 }
