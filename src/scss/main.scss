@@ -1384,10 +1384,10 @@ table {
 	margin-left: 80px;
 	margin-top: 100px;
 	overflow: hidden;
-	-webkit-transition: margin .3s linear, -webkit-transform .3s linear;
-	transition: margin .3s linear, -webkit-transform .3s linear;
-	transition: transform .3s linear, margin .3s linear;
-	transition: transform .3s linear, margin .3s linear, -webkit-transform .3s linear;
+	-webkit-transition: margin .2s linear, -webkit-transform .2s linear;
+	transition: margin .2s linear, -webkit-transform .2s linear;
+	transition: transform .2s linear, margin .2s linear;
+	transition: transform .2s linear, margin .2s linear, -webkit-transform .2s linear;
 	&:hover {
 		.portfolio__item-link {
 			bottom: 0;
@@ -1727,6 +1727,10 @@ table {
 	&:hover {
 		background-color: $background_color_15;
 	}
+	
+	
+	
+	
 }
 .portfolio__rhomb--active {
 	background: url(../images/sprite.png) -51px -105px #212121;
@@ -1751,6 +1755,7 @@ table {
 		-webkit-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 		transform: rotate(45deg);
+		
 		.portfolio__item-image-wrap {
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
@@ -2658,8 +2663,8 @@ $background_color_1: rgba(255,255,255,0.2);
 		position: relative;
 		display: block;
 		float: none;
-		width: 150px;
-		height: 150px;
+		width: 300px;
+    height: 300px;
 		margin-left: 10px;
 		margin-top: 10px;
 		overflow: hidden;

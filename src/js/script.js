@@ -101,3 +101,18 @@ function hasScrolled() {
 }
 
 
+$( ".portfolio__nav-link" ).click(function() {
+    if ($('.portfolio__rect').hasClass('portfolio__rect--active')) {
+        $('.portfolio__item').css({"width" : "300px", "height" : "300px", "margin-left":"10px", "margin-top":"10px"});
+        $('.portfolio__list').css({"display" : "flex", "flex-wrap" : "wrap", "margin-left":"0", "justify-content":"center"});
+        $('.portfolio__list-wrap').css({"display" : "flex", "justify-content":"center"});
+    }
+
+    else {
+        $('.portfolio__item').removeAttr('style');
+        $('.portfolio__list').removeAttr('style');
+		$('.portfolio__list-wrap').removeAttr('style');
+    }
+
+});
+
