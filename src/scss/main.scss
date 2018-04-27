@@ -114,15 +114,14 @@ th {
 .contact__form {
 	position: relative;
 	display: block;
-	width: 826px;
-	height: 826px;
+	width: 600px;
+	height: 600px;
 	left: 50%;
 	z-index: 9;
-	margin-left: -413px;
+	margin-left: -300px;
 	text-align: center;
-	background-color: $background_color_3;
+	background-color: #212121;
 	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	overflow: hidden;
 }
@@ -858,6 +857,10 @@ table {
 		height: 0;
 		content: "";
 	}
+
+	.slick-next, .slick-prev {
+		top: 19%;
+	}
 }
 .clients__item {
 	display: inline-block;
@@ -889,7 +892,7 @@ table {
 	-ms-transform: rotate(-45deg);
 	width: 100%;
 	height: 100%;
-	padding-top: 30px;
+	
 	transform: rotate(-45deg);
 }
 .contact__form-groups {
@@ -908,19 +911,19 @@ table {
 }
 .contact__address {
 	position: absolute;
-	width: 190px;
-	height: 190px;
+	width: 134px;
+	height: 134px;
 	bottom: 0;
 	left: 50%;
-	margin-left: 223px;
+	margin-left: 167px;
 	background-color: $background_color_4;
 	overflow: hidden;
 }
 .contact__address-title {
 	position: relative;
-	padding-top: 20px;
+	padding-top: 15px;
 	font-family: 'Exo 2', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	color: $color_4;
 	text-align: center;
 	&:after {
@@ -936,7 +939,7 @@ table {
 }
 .contact__address-link {
 	font-family: $font_family_5;
-	font-size: 14px;
+	font-size: 12px;
 	color: $color_4;
 	text-align: center;
 	display: block;
@@ -947,7 +950,7 @@ table {
 }
 .contact__address-text-inner {
 	font-family: $font_family_5;
-	font-size: 14px;
+	font-size: 12px;
 	color: $color_4;
 	text-align: center;
 }
@@ -1098,15 +1101,15 @@ table {
 }
 .contact__form-control {
 	position: absolute;
-	width: 190px;
-	height: 190px;
+	width: 130px;
+	height: 130px;
 	left: 50%;
 	background-color: $background_color_4;
 	overflow: hidden;
 }
 .contact__form-control--send {
-	bottom: 195px;
-	margin-left: 223px;
+	bottom: 143px;
+	margin-left: 172px;
 }
 .contact__form-control--reset {
 	bottom: 0;
@@ -3067,4 +3070,13 @@ font-size: 18px;
 
 .modal {
 display: none;
+}
+
+@media (max-width: 810px) {
+	.clients__list {
+		.slick-next, .slick-prev {
+			display: none !important;
+		}
+	}
+
 }
