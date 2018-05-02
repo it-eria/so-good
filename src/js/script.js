@@ -116,3 +116,8 @@ $( ".portfolio__nav-link" ).click(function() {
 
 });
 
+$( ".nav__item" ).click(function() {
+    $("#menu-burger").removeClass('active');
+    $( "#first" ).removeClass('in');
+});
+

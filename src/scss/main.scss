@@ -892,7 +892,7 @@ table {
 	-ms-transform: rotate(-45deg);
 	width: 100%;
 	height: 100%;
-	
+
 	transform: rotate(-45deg);
 }
 .contact__form-groups {
@@ -1538,7 +1538,7 @@ table {
 	list-style: none;
 }
 .page-footer {
-	height: 286px;
+	min-height: 286px;
 
 	width: 100%;
 	//max-width: 440px;
@@ -2044,7 +2044,7 @@ table {
 	-webkit-transition: background-color .2s linear;
 	transition: background-color .2s linear;
 	top: 0;
-	z-index: 999;
+
 	position: absolute;
 }
 .team__role {
@@ -2553,7 +2553,7 @@ $background_color_1: rgba(255,255,255,0.2);
 	.contact__form-control {
 		width: 75px;
 		height: 75px;
-		left: 64%;
+		left: 59%;
 	}
 
 	.team__list {
@@ -3053,6 +3053,14 @@ $red: #E2061B;
 	}
 }
 
+.clients__item {
+
+		img {
+			width: 100%;
+		}
+	
+}
+
 .modal-content {
 	border-radius:0;
 }
@@ -3078,5 +3086,9 @@ display: none;
 			display: none !important;
 		}
 	}
+
+}
+
+@media (max-width: 455px) {
 
 }
